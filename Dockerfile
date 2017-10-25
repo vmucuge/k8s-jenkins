@@ -1,5 +1,5 @@
 FROM alpine
-MAINTAINER Vinicius Mucuge <vmucuge@google.com>
+MAINTAINER Vinicius Mucuge <viniciusmucuge@gmail.com>
 
 ENV APPDIR /opt/autoscaler
 
