@@ -4,6 +4,7 @@ MAINTAINER Vinicius Mucuge <viniciusmucuge@gmail.com>
 ENV APPDIR /opt/autoscaler
 
 # Install Python
+RUN apk update
 RUN apk add --update bash python
 RUN rm -rf /var/cache/apk/*
 
